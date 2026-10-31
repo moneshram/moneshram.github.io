@@ -72,9 +72,6 @@ svg { display: block; }
 .scroll-cue { position: absolute; top: calc(100% + 30px); left: 50%; display: flex; align-items: center; gap: 9px; color: #777285; white-space: nowrap; font: .58rem var(--mono); letter-spacing: .14em; transform: translateX(-50%); }
 .scroll-cue span { width: 10px; height: 16px; border: 1px solid var(--purple); border-radius: 8px; position: relative; }
 .scroll-cue span::after { content: ""; position: absolute; top: 3px; left: 4px; width: 2px; height: 3px; border-radius: 2px; background: var(--cyan); animation: scroll-dot 1.3s ease-in-out infinite; }
-.hero-orbit { position: absolute; border: 1px solid rgba(168, 85, 247, .08); border-radius: 50%; pointer-events: none; }
-.hero-orbit-one { width: min(70vw, 720px); aspect-ratio: 1; }
-.hero-orbit-two { width: min(88vw, 980px); aspect-ratio: 1; border-color: rgba(0, 255, 213, .035); }
 .hero-grid { position: absolute; z-index: -1; inset: 55% 0 0; opacity: .13; background-image: linear-gradient(rgba(168,85,247,.24) 1px, transparent 1px), linear-gradient(90deg, rgba(168,85,247,.24) 1px, transparent 1px); background-size: 54px 54px; mask-image: linear-gradient(transparent, black); }
 
 .section { padding-top: 116px; padding-bottom: 116px; }
