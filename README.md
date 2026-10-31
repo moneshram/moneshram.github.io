@@ -8,7 +8,7 @@ A responsive, single-page portfolio made with HTML, CSS, and vanilla JavaScript.
 - `style.css` — responsive theme, layout, and animations
 - `script.js` — floating-square particles, mobile navigation, scroll reveals, active section state, and role animation
 - `resume.html` — print-ready résumé; select **Print / Save as PDF** in the browser to download a PDF copy
-- `avatar.svg` — original monogram placeholder; replace it with a personal photo when ready
+- `profile-photo.jpeg` — profile photo used in the site header, hero, and footer
 
 ## Publish with GitHub Pages
 
@@ -18,9 +18,9 @@ A responsive, single-page portfolio made with HTML, CSS, and vanilla JavaScript.
 
 The first publish can take a few minutes. The résumé link opens `resume.html`; use its print button and choose **Save as PDF** in the browser dialog.
 
-## Replace the avatar
+## Replace the profile photo
 
-Replace `avatar.svg` with your own photo file, then update the avatar image paths and favicon link in `index.html` to match its name (for example, `profile.jpg`).
+Replace `profile-photo.jpeg` with another photo, then update its image paths and favicon link in `index.html` to match the new filename.
 
 ## Personal information
 
