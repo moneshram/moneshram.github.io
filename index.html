@@ -23,7 +23,7 @@
     <header class="site-header">
       <nav class="nav-shell" aria-label="Main navigation">
         <a class="brand" href="#home" aria-label="Monesh V home">
-          <img class="brand-avatar" src="profile-photo.jpeg" alt="" width="40" height="40" />
+          <span class="brand-avatar" aria-hidden="true">M</span>
           <span class="brand-copy"><strong>Monesh V</strong><small>MCA · Developer</small></span>
         </a>
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation menu">
@@ -42,13 +42,14 @@
 
     <main id="main">
       <section class="hero section-anchor" id="home" aria-labelledby="hero-title">
+        <div class="hero-photo-backdrop" aria-hidden="true"></div>
         <div class="hero-orbit hero-orbit-one" aria-hidden="true"></div>
         <div class="hero-orbit hero-orbit-two" aria-hidden="true"></div>
         <div class="hero-content">
           <div class="availability"><span class="status-dot"></span> OPEN TO LEARNING & COLLABORATION</div>
           <div class="avatar-wrap reveal">
-            <div class="avatar-photo-frame">
-              <img class="hero-avatar" src="profile-photo.jpeg" alt="Portrait of Monesh V" width="168" height="168" fetchpriority="high" />
+            <div class="avatar-monogram-frame" aria-hidden="true">
+              <span class="hero-monogram">M</span>
             </div>
             <span class="avatar-ring" aria-hidden="true"></span>
           </div>
@@ -145,6 +146,6 @@
       </section>
     </main>
 
-    <footer class="site-footer"><div class="section-shell footer-inner"><a class="footer-brand" href="#home"><img src="profile-photo.jpeg" alt="" width="32" height="32" /> MONESH V</a><p>Designed & built with curiosity. <span>© <span id="year">2026</span> Monesh V</span></p><a class="back-top" href="#home" aria-label="Back to top">↑</a></div></footer>
+    <footer class="site-footer"><div class="section-shell footer-inner"><a class="footer-brand" href="#home"><span class="footer-avatar" aria-hidden="true">M</span> MONESH V</a><p>Designed & built with curiosity. <span>© <span id="year">2026</span> Monesh V</span></p><a class="back-top" href="#home" aria-label="Back to top">↑</a></div></footer>
   </body>
 </html>

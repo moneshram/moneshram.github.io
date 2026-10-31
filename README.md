@@ -8,7 +8,7 @@ A responsive, single-page portfolio made with HTML, CSS, and vanilla JavaScript.
 - `style.css` — responsive theme, layout, and animations
 - `script.js` — floating-square particles, mobile navigation, scroll reveals, active section state, and role animation
 - `resume.html` — print-ready résumé; select **Print / Save as PDF** in the browser to download a PDF copy
-- `profile-photo.jpeg` — profile photo used in the site header, hero, and footer
+- `profile-photo.jpeg` — profile photo used as the hero background image
 
 ## Publish with GitHub Pages
 
