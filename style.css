@@ -208,7 +208,7 @@ svg { display: block; }
   .hero { min-height: max(700px, 100svh); padding: 96px 20px 66px; }
   .availability { margin-bottom: 24px; font-size: .55rem; letter-spacing: .09em; }
   .avatar-wrap { width: 156px; height: 156px; margin-bottom: 21px; }
-  .hero-photo-backdrop { background-image: linear-gradient(90deg, rgba(8,7,13,.16), rgba(8,7,13,.18)), linear-gradient(0deg, rgba(8,7,13,.48) 0%, transparent 45%, rgba(8,7,13,.12) 100%), url("hero-cover.png"); background-position: center, center, 75% center; background-size: cover, cover, auto 100%; opacity: 1; }
+  .hero-photo-backdrop { background-image: linear-gradient(90deg, rgba(8,7,13,.45), rgba(8,7,13,.2)), linear-gradient(0deg, rgba(8,7,13,.5) 0%, transparent 45%, rgba(8,7,13,.22) 100%), url("profile-photo.jpeg"); background-position: center, center, center 18%; background-size: cover, cover, auto 100%; opacity: .98; }
   .hero-description { max-width: 430px; font-size: .9rem; }
   .hero-actions { width: min(100%, 400px); flex-direction: column; gap: 11px; margin-top: 24px; }
   .button { width: 100%; min-height: 50px; }
