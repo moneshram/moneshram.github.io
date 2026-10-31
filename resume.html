@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#08070d" />
+    <meta name="description" content="Print-ready résumé for Monesh V, MCA student and software developer." />
+    <title>Résumé — Monesh V</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body { background: #f5f4f8; color: #211c2c; }
+      .resume-toolbar { position: sticky; z-index: 2; top: 0; padding: 13px 20px; display: flex; justify-content: center; gap: 12px; background: #11101a; }
+      .resume-toolbar a, .resume-toolbar button { padding: 10px 15px; border: 1px solid #61408f; border-radius: 7px; color: #fff; background: #211b30; cursor: pointer; font: 600 .75rem var(--mono); }
+      .resume-toolbar button { border-color: #8b5cf6; background: #7c3aed; }
+      .resume-page { width: min(850px, calc(100% - 34px)); margin: 34px auto; padding: 52px 62px; background: #fff; box-shadow: 0 16px 55px rgba(21,16,32,.14); }
+      .resume-head { padding-bottom: 21px; border-bottom: 2px solid #8b5cf6; }
+      .resume-head h1 { margin: 0; color: #171321; font-size: 2rem; letter-spacing: -.06em; }
+      .resume-head p { margin: 8px 0 0; color: #5f5969; font-size: .88rem; line-height: 1.6; }
+      .resume-head a { color: #6840a6; text-decoration: underline; text-underline-offset: 2px; }
+      .resume-section { margin-top: 20px; }
+      .resume-section h2 { margin: 0 0 9px; padding-bottom: 6px; border-bottom: 1px solid #e7e1ef; color: #6840a6; font: 600 .75rem var(--mono); letter-spacing: .12em; text-transform: uppercase; }
+      .resume-section p, .resume-section li { color: #494452; font-size: .75rem; line-height: 1.55; }
+      .resume-section p { margin: 5px 0; }
+      .resume-section ul { margin: 6px 0; padding-left: 18px; }
+      .resume-section li { margin: 3px 0; }
+      .resume-item { margin: 11px 0 14px; }
+      .resume-item h3 { margin: 0; color: #211c2c; font-size: .87rem; }
+      .resume-item .resume-meta { margin: 3px 0 5px; color: #746d7e; font: .65rem var(--mono); }
+      .resume-skills { display: grid; grid-template-columns: 142px 1fr; gap: 5px 12px; }
+      .resume-skills strong { color: #211c2c; font-size: .72rem; }
+      .resume-skills span { color: #494452; font-size: .72rem; line-height: 1.45; }
+      @media (max-width: 640px) { .resume-page { margin: 18px auto; padding: 28px 23px; } .resume-skills { grid-template-columns: 1fr; gap: 2px; } .resume-skills span { margin-bottom: 6px; } }
+      @media print {
+        @page { size: A4; margin: 14mm 15mm; }
+        body { background: #fff; }
+        .resume-toolbar { display: none; }
+        .resume-page { width: auto; margin: 0; padding: 0; box-shadow: none; }
+        .resume-section { break-inside: avoid; }
+        .resume-head a { color: #211c2c; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="resume-toolbar"><a href="index.html">← Back to portfolio</a><button type="button" onclick="window.print()">Print / Save as PDF</button></div>
+    <main class="resume-page">
+      <header class="resume-head">
+        <h1>V. MONESH</h1>
+        <p>MCA Student · Full-Stack Development · AI/ML · Big Data<br />Chennai, Tamil Nadu · <a href="https://www.linkedin.com/in/monesh-v-5874381b1/">LinkedIn</a> · <a href="https://github.com/moneshram">GitHub</a></p>
+      </header>
+      <section class="resume-section"><h2>Professional Summary</h2><p>MCA student with a strong foundation in full-stack development, Python programming, and artificial intelligence. Builds responsive web applications using React, Node.js, and Python frameworks, and integrates machine-learning models and big-data analytics into practical projects. Focused on continuous learning, clear problem solving, and useful software.</p></section>
+      <section class="resume-section"><h2>Technical Skills</h2><div class="resume-skills">
+        <strong>Programming</strong><span>Python, Java, JavaScript, TypeScript, C, SQL, HiveQL</span>
+        <strong>Frontend</strong><span>React.js, HTML5, CSS3, Tailwind CSS</span>
+        <strong>Backend</strong><span>Node.js, Flask</span>
+        <strong>Databases</strong><span>MySQL, MongoDB, SQLite, PostgreSQL</span>
+        <strong>AI / ML & Big Data</strong><span>Scikit-learn, Hadoop, HDFS, MapReduce, Apache Hive, Generative AI</span>
+        <strong>Tools</strong><span>Git, GitHub, Linux, VS Code</span>
+      </div></section>
+      <section class="resume-section"><h2>Projects</h2>
+        <article class="resume-item"><h3>NeuroRisk AI — Brain Stroke Risk Prediction System</h3><p class="resume-meta">Python · Flask · React.js · TypeScript · Tailwind CSS · Scikit-learn · SQLite</p><ul><li>Built a full-stack application that uses a Random Forest model to classify stroke risk from health and demographic inputs.</li><li>Created responsive frontend experiences and integrated secure authentication and role-based access for users and administrators.</li><li>Designed SQLite storage for user profiles, assessment history, and comparative result reports.</li></ul></article>
+        <article class="resume-item"><h3>Movie Rating Analytics System</h3><p class="resume-meta">Python · Java · Hadoop · HDFS · MapReduce · Apache Hive · HiveQL</p><ul><li>Processed MovieLens data with HDFS, Java MapReduce jobs, and Python Hadoop Streaming.</li><li>Used HiveQL to explore rating distributions, active users, popular movies, and genre trends.</li></ul></article>
+      </section>
+      <section class="resume-section"><h2>Education</h2>
+        <article class="resume-item"><h3>Master of Computer Applications (MCA)</h3><p class="resume-meta">Sri Chandrasekharendra Saraswathi Viswa Mahavidyalaya · 2025–2027</p><p>Current CGPA: 8.06</p></article>
+        <article class="resume-item"><h3>Bachelor of Computer Applications (BCA)</h3><p class="resume-meta">Dr. M.G.R. Educational and Research Institute · Completed 2024</p><p>CGPA: 7.79</p></article>
+      </section>
+      <section class="resume-section"><h2>Certifications & Achievements</h2><ul><li>Python Programming with Red Hat (AD141 – RHA) v9.0 — Red Hat, Sep 2025; 32 credit hours.</li><li>RDBMS PostgreSQL Training — EduPyramids, SINE, IIT Bombay, Dec 2025; final assessment 92.50%.</li><li>Python Programming: Build and Deploy Your Own Applications — Udemy, Sheikh Coding Institute, Dec 2025.</li><li>Generative AI Mastermind — Outskill, 2025.</li><li>AI Tools and ChatGPT Workshop — be10x, Nov 2025.</li></ul></section>
+    </main>
+  </body>
+</html>
